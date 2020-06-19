@@ -1,0 +1,148 @@
+.banner {
+  color: white;
+  background-color: black;
+  background-image: url('~@/assets/img/banner.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: calc(100vh - 4rem);
+  display: flex;
+  align-items: center;
+}
+
+.banner-container {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn-purple {
+  background-color: var(--purple);
+  border: 0;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.btn-purple:focus {
+  box-shadow: 0 0 0 0.2rem rgba(91, 79, 156, 0.5);
+  outline: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+.header-container {
+  align-items: center;
+  background-color: var(--purple);
+  color: white;
+  display: flex;
+  height: 4rem;
+}
+
+.header-item {
+  flex-shrink: 0;
+}
+
+.spacer {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-option-horizontal {
+  padding: 1rem;
+  float: left;
+  border-bottom: 0.3rem solid var(--purple);
+  border-top: 0.3rem solid var(--purple);
+}
+
+.menu-option-horizontal:hover {
+  cursor: pointer;
+  border-bottom: 0.3rem solid var(--white);
+}
+
+.menu-option-vertical {
+  border-bottom: 0.01rem solid rgba(255, 255, 255, 0.5);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.drawer {
+  box-shadow: 0.1rem 0 0.1rem rgba(0, 0, 0, 0.15);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 70vw;
+  z-index: 5;
+}
+
+.drawer-enter-active,
+.drawer-leave-active {
+  transition: width 0.1s;
+}
+
+.drawer-enter,
+.drawer-leave-to {
+  width: 1vw !important;
+}
+
+.drawer-enter-to,
+.drawer-leave {
+  width: 70vw !important;
+}
+
+.section {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 80rem;
+  padding: 2rem 1rem 2rem 1rem;
+  width: 100%;
+}
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 1rem 0 1rem 0;
+  margin: 0;
+  text-align: center;
+}
+
+.form-control {
+  border: 1px solid var(--gray-2);
+  border-radius: 0.25rem;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  padding: 0.375rem 0.75rem;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(91, 79, 156, 0.5);
+}

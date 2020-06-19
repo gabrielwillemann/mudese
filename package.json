@@ -1,0 +1,23 @@
+{
+  "name": "mudese",
+  "version": "0.1.0",
+  "description": "Mude-se por Natanna Taynara",
+  "author": "Gabriel Willemann",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.3.0",
+    "@nuxtjs/sitemap": "^2.3.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}

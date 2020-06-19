@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+:root {
+  --white: white;
+  --purple: rgb(91, 79, 156);
+  --black: rgb(70, 70, 70);
+  --gray-1: rgb(245, 245, 245);
+  --gray-2: rgb(210, 210, 210);
+  --gray-3: rgb(190, 190, 190);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  color: var(--black);
+}
+ 
+:target::before {
+  content: '';
+  display: block;
+  height: 4rem;
+  margin-top: -4rem;
+}
