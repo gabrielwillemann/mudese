@@ -1,6 +1,9 @@
 export default {
   mode: 'universal',
   head: {
+    htmlAttrs: {
+      lang: 'pt-BR',
+    },
     title: process.env.npm_package_description || '',
     meta: [
       { charset: 'utf-8' },
