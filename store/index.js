@@ -9,8 +9,12 @@ import imgPerson from '@/assets/img/natanna.png';
 import imgClinic1 from '@/assets/img/clinic-1.jpg';
 import imgClinic2 from '@/assets/img/clinic-2.jpg';
 import imgClinic3 from '@/assets/img/clinic-3.jpg';
+import imgClinic4 from '@/assets/img/clinic-4.jpg';
+import imgClinic5 from '@/assets/img/clinic-5.jpg';
+import imgClinic6 from '@/assets/img/clinic-6.jpg';
 import imgGps from '@/assets/img/gps.png';
-import imgPublication from '@/assets/img/tcc.jpg';
+import imgPublication1 from '@/assets/img/pub-1.jpg';
+import imgPublication2 from '@/assets/img/pub-2.jpg';
 import imgWhatsApp from '@/assets/img/whatsapp.png';
 import imgInstagram from '@/assets/img/instagram.png';
 import imgFacebook from '@/assets/img/facebook.png';
@@ -68,10 +72,9 @@ export const state = () => ({
   about: {
     title: 'Sobre o Mude-se',
     paragraphs: [
-      'Iniciei meu trabalho na Psicologia em março de 2016, após cinco dias da minha formatura comecei a atender no consultório. Semana após semana me dediquei para fazer o meu melhor, e contribuir com a vida das pessoas que começaram a procurar pelo meu trabalho. Tenho bons networks e sempre uso da criatividade para agregar valor ao que faço. O ano de 2019 foi um grande marco na minha carreira de psicóloga, pois comprei minha primeira sala para o consultório e publiquei meu primeiro material terapêutico.',
-      'Desde a faculdade eu sempre tive dois objetivos: ser psicóloga clínica e professora. Por isso, em 2017 iniciei meu mestrado na Universidade Federal de Santa Catarina, e rodei incontáveis vezes mais de 400km por semana para tornar esse sonho possível. Em 2018 um pouco antes de concluir o mestrado, fui convidada para coordenar Pós Graduações na cidade de Rio do Sul pelo Instituto Educar Brasil.',
-      'Nesse meio tempo também me dediquei a compreender mais o cérebro e por isso, também sou hoje, treinadora de neurofeedback certificada pela Brain Trainer e, nas sextas-feiras me dedico a escrever livros e materiais terapêuticos. Tudo isso foi possível por reconhecer e usar as minhas forças pessoais que são: criatividade, perspectiva, perseverança, curiosidade e amor ao aprendizado. E não menos importante: amo os animais e um estilo de vida saudável, com hábitos e relacionamentos bons.',
-      'Acredito na capacidade de mudança, e que merecemos uma vida significativa, apesar das adversidades pelas quais passamos, por isso, busco com meu exemplo e conhecimento proporcionar uma vida melhor para aqueles que passam pela minha vida.',
+      'Cinco dias após minha formatura, em março de 2016, num consultório sublocado, iniciava-se a minha trajetória clínica. Em 2017 iniciei meu mestrado na Universidade Federal de Santa Catarina, rodando incontáveis vezes mais de 400km por semana para tornar esse sonho possível. No ano de 2018 fui convidada para coordenar Pós Graduações na cidade de Rio do Sul pelo Instituto Educar Brasil.',
+      'Durante esse período me certifiquei como treinadora de neurofeedback pela Brain Trainer e atualmente também me dedico a escrever livros e materiais terapêuticos. O ano de 2019 foi um grande marco na minha carreira de psicóloga, pois comprei minha primeira sala para o consultório e publiquei meu primeiro material terapêutico. Agora em 2020 vários outros materiais que sou autora e coautora estão sendo publicados, o que me deixa muito feliz por estar contribuindo com a Psicologia também dessa forma.',
+      'Acredito na capacidade de mudança, que merecemos uma vida significativa, apesar das adversidades pelas quais passamos, por isso, busco com meu exemplo e conhecimento e auxiliar as pessoas que encontro.   ',
     ],
     image: imgPerson,
     author: 'Natanna Taynara Schütz',
@@ -98,7 +101,7 @@ export const state = () => ({
   ],
   clinic: {
     title: 'Consultório',
-    images: [imgClinic1, imgClinic2, imgClinic3],
+    images: [imgClinic1, imgClinic2, imgClinic3, imgClinic4, imgClinic5, imgClinic6],
     iconAddress: imgGps,
   },
   address: {
@@ -112,7 +115,7 @@ export const state = () => ({
   },
   publications: {
     title: 'Publicações',
-    images: [imgPublication, imgPublication, imgPublication],
+    images: [imgPublication1, imgPublication2],
   },
   footer: {
     navigation: 'Navegação',
