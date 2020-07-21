@@ -74,7 +74,7 @@ export const state = () => ({
     paragraphs: [
       'Cinco dias após minha formatura, em março de 2016, num consultório sublocado, iniciava-se a minha trajetória clínica. Em 2017 iniciei meu mestrado na Universidade Federal de Santa Catarina, rodando incontáveis vezes mais de 400km por semana para tornar esse sonho possível. No ano de 2018 fui convidada para coordenar Pós Graduações na cidade de Rio do Sul pelo Instituto Educar Brasil.',
       'Durante esse período me certifiquei como treinadora de neurofeedback pela Brain Trainer e atualmente também me dedico a escrever livros e materiais terapêuticos. O ano de 2019 foi um grande marco na minha carreira de psicóloga, pois comprei minha primeira sala para o consultório e publiquei meu primeiro material terapêutico. Agora em 2020 vários outros materiais que sou autora e coautora estão sendo publicados, o que me deixa muito feliz por estar contribuindo com a Psicologia também dessa forma.',
-      'Acredito na capacidade de mudança, que merecemos uma vida significativa, apesar das adversidades pelas quais passamos, por isso, busco com meu exemplo e conhecimento e auxiliar as pessoas que encontro.   ',
+      'Acredito na capacidade de mudança, que merecemos uma vida significativa, apesar das adversidades pelas quais passamos, por isso, busco com meu exemplo e conhecimento auxiliar as pessoas que encontro.',
     ],
     image: imgPerson,
     author: 'Natanna Taynara Schütz',
