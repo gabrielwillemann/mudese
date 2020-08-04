@@ -1,5 +1,9 @@
 export default {
   mode: 'universal',
+  target: 'static',
+  generate: {
+    fallback: '404.html',
+  },  
   head: {
     htmlAttrs: { lang: 'pt-BR' },
     title: process.env.npm_package_description || '',

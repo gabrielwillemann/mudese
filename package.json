@@ -13,7 +13,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.3.0",
     "@nuxtjs/sitemap": "^2.3.2",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.14.1"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.10.0",
