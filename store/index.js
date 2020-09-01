@@ -32,12 +32,12 @@ export const state = () => ({
   },
   facebook: {
     text: 'Facebook',
-    link: 'https://www.facebook.com/natannataynarapsicologa',
+    link: 'https://www.facebook.com/mudesepornatannataynara/',
     image: imgFacebook,
   },
   youtube: {
     text: 'Youtube',
-    link: 'https://www.youtube.com/user/natannataynara',
+    link: 'https://www.youtube.com/c/MudeseporNatannaTaynara',
     title: 'Vídeos',
     subscribe: 'Inscreva-se no Canal',
     videos: [
