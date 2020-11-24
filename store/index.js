@@ -15,6 +15,8 @@ import imgClinic6 from '@/assets/img/clinic-6.jpg';
 import imgGps from '@/assets/img/gps.png';
 import imgPublication1 from '@/assets/img/pub-1.jpg';
 import imgPublication2 from '@/assets/img/pub-2.jpg';
+import imgPublication3 from '@/assets/img/pub-3.jpg';
+import imgPublication4 from '@/assets/img/pub-4.jpg';
 import imgWhatsApp from '@/assets/img/whatsapp.png';
 import imgInstagram from '@/assets/img/instagram.png';
 import imgFacebook from '@/assets/img/facebook.png';
@@ -41,10 +43,10 @@ export const state = () => ({
     title: 'Vídeos',
     subscribe: 'Inscreva-se no Canal',
     videos: [
+      'https://www.youtube.com/embed/oTUboYxDMnk',
+      'https://www.youtube.com/embed/-IMTOn2s9xk',
       'https://www.youtube.com/embed/mneJnKxKgbc',
       'https://www.youtube.com/embed/F-YAKXL0WkQ',
-      'https://www.youtube.com/embed/mOUAYWO6ugo',
-      'https://www.youtube.com/embed/-IMTOn2s9xk',
     ],
     image: imgYoutube,
   },
@@ -92,7 +94,7 @@ export const state = () => ({
     ],
   },
   badges: [
-    { image: imgPsychologist, text: '+3000 Horas de Atendimento Clínico' },
+    { image: imgPsychologist, text: '+4000 Horas de Atendimento Clínico' },
     { image: imgMasterDegree, text: 'Mestra pela UFSC' },
     { image: imgUniversity, text: 'Coordenadora de Pós-Graduação' },
     { image: imgTeacher, text: 'Professora' },
@@ -115,7 +117,7 @@ export const state = () => ({
   },
   publications: {
     title: 'Publicações',
-    images: [imgPublication1, imgPublication2],
+    images: [imgPublication1, imgPublication2, imgPublication3, imgPublication4],
   },
   footer: {
     navigation: 'Navegação',
