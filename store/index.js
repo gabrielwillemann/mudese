@@ -63,13 +63,14 @@ export const state = () => ({
   home: {
     text: 'Início',
     image: imgHome,
-    link: '#banner',
+    link: '/#banner',
   },
   menuOptions: [
-    { text: 'Sobre', link: '#about' },
-    { text: 'Consultório', link: '#clinic' },
-    { text: 'Publicações', link: '#publications' },
-    { text: 'Vídeos', link: '#videos' },
+    { text: 'Sobre', link: '/#about' },
+    { text: 'Consultório', link: '/#clinic' },
+    { text: 'Publicações', link: '/#publications' },
+    { text: 'Vídeos', link: '/#videos' },
+    { text: 'eBooks', link: '/ebooks' },
   ],
   about: {
     title: 'Sobre o Mude-se',
@@ -123,5 +124,20 @@ export const state = () => ({
     navigation: 'Navegação',
     links: 'Links',
     address: 'Endereço',
+  },
+  ebooks: {
+    paragraphs: [
+      'Sabe aquele dia horrível? Aquela pessoa que lhe faz mal? A exaustão diante de inúmeros contratempos? Os acontecimentos ruins que nos deixam sem chão! Pois é, infelizmente muitas dessas coisas não estão na órbita do nosso controle, elas fazem parte da realidade e vulnerabilidade da vida. Mas o que fazemos diante disso? Aceitamos viver mal e no sofrimento? Não me parece justo, pois acredito que merecemos uma vida de qualidade apesar das adversidades inerentes à ela. Por isso, idealizei um Programa que visa auxiliar no fortalecimento de uma das coisas que mais está no nosso controle frente às incertezas da vida: nossos recursos emocionais para lidar com o que passamos!',
+      'Na minha trajetória dentro da Psicologia, ano após ano percebo que uma das formas mais importantes de auxiliar às pessoas consiste em fortalecê-las emocionalmente. Quando estamos mais fortes e preparados emocionalmente, passamos a lidar de forma mais assertiva com situações difíceis, e logo, nosso bem-estar tende a não ser tão afetado. Convido você a fazer parte dessa caminhada comigo nós próximos 10 meses no meu Instagram @mudese.com.br. Cada mês abordarei um tema que considero importante para o fortalecimento emocional, trazendo vários conteúdos, técnicas, indicações, reflexões e reels para isso.',
+    ],
+    group1: [
+      {
+        name: 'Ebook #1 - Autocompaixão',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook1-autocompaixao.pdf',
+        category: 'ebook-forte-emocionalmente',
+        action: 'ebook-download',
+        label: 'ebook-forte-emocionalmente-#1',
+      },
+    ],
   },
 });
