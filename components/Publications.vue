@@ -3,7 +3,11 @@
     <div class="section">
       <h3 class="section-title">{{ title }}</h3>
       <div class="section-container">
-        <img v-for="image in images" class="p-1" :src="image" />
+        <div class="p-1" v-for="item in list">
+          <a :href="item.link" target="_blank">
+            <img :src="item.image" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -16,8 +20,8 @@ export default {
     title() {
       return this.$store.state.publications.title;
     },
-    images() {
-      return this.$store.state.publications.images;
+    list() {
+      return this.$store.state.publications.list;
     },
   },
 };

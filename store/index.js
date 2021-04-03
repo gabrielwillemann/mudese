@@ -17,6 +17,10 @@ import imgPublication1 from '@/assets/img/pub-1.jpg';
 import imgPublication2 from '@/assets/img/pub-2.jpg';
 import imgPublication3 from '@/assets/img/pub-3.jpg';
 import imgPublication4 from '@/assets/img/pub-4.jpg';
+import imgPublication5 from '@/assets/img/pub-5.jpg';
+import imgPublication6 from '@/assets/img/pub-6.jpg';
+import imgPublication7 from '@/assets/img/pub-7.jpg';
+import imgPublication8 from '@/assets/img/pub-8.jpg';
 import imgWhatsApp from '@/assets/img/whatsapp.png';
 import imgInstagram from '@/assets/img/instagram.png';
 import imgFacebook from '@/assets/img/facebook.png';
@@ -75,9 +79,9 @@ export const state = () => ({
   about: {
     title: 'Sobre o Mude-se',
     paragraphs: [
-      'Cinco dias após minha formatura, em março de 2016, num consultório sublocado, iniciava-se a minha trajetória clínica. Em 2017 iniciei meu mestrado na Universidade Federal de Santa Catarina, rodando incontáveis vezes mais de 400km por semana para tornar esse sonho possível. No ano de 2018 fui convidada para coordenar Pós Graduações na cidade de Rio do Sul pelo Instituto Educar Brasil.',
-      'Durante esse período me certifiquei como treinadora de neurofeedback pela Brain Trainer e atualmente também me dedico a escrever livros e materiais terapêuticos. O ano de 2019 foi um grande marco na minha carreira de psicóloga, pois comprei minha primeira sala para o consultório e publiquei meu primeiro material terapêutico. Agora em 2020 vários outros materiais que sou autora e coautora estão sendo publicados, o que me deixa muito feliz por estar contribuindo com a Psicologia também dessa forma.',
-      'Acredito na capacidade de mudança, que merecemos uma vida significativa, apesar das adversidades pelas quais passamos, por isso, busco com meu exemplo e conhecimento auxiliar as pessoas que encontro.',
+      'Cinco  dias após minha formatura, em março de 2016, num consultório sublocado, iniciava-se a minha trajetória clínica. Em 2017 iniciei meu mestrado na Universidade Federal de Santa Catarina, rodando incontáveis vezes mais de 400km por semana para tornar esse sonho possível.',
+      'No ano de 2018 fui convidada para coordenar cursos de Pós-Graduação pelo Instituto Educar Brasil, e atualmente sou idealizadora de várias Especializações oferecidas pela Instituição. Durante esse período me certifiquei como treinadora de neurofeedback pela Brain Trainer, sendo hoje esse um recurso auxiliar no meu trabalho. Também me dedico a escrever livros e materiais terapêuticos, tendo hoje várias publicações em grandes editoras do país.',
+      'Acredito na capacidade de mudança, que merecemos uma vida significativa, apesar das adversidades pelas quais passamos. Por isso, busco com meu exemplo e conhecimento auxiliar as pessoas que encontro a serem mais fortes emocionalmente. Desejo que meus conteúdos auxiliem você a viver com mais bem-estar e que sua mudança seja recompensadora!',
     ],
     image: imgPerson,
     author: 'Natanna Taynara Schütz',
@@ -118,7 +122,16 @@ export const state = () => ({
   },
   publications: {
     title: 'Publicações',
-    images: [imgPublication1, imgPublication2, imgPublication3, imgPublication4],
+    list: [
+      { image: imgPublication1, link: 'https://www.terapiacriativa.com.br/estude-certo' },
+      { image: imgPublication2, link: 'https://www.ideajogos.com.br/collections/destaque-da-home/products/mandando-a-real' },
+      { image: imgPublication3, link: 'https://www.jurua.com.br/shop_item.asp?id=28805' },
+      { image: imgPublication4, link: 'https://www.jurua.com.br/shop_item.asp?id=28457' },
+      { image: imgPublication5, link: null },
+      { image: imgPublication6, link: null },
+      { image: imgPublication7, link: 'https://matrixeditora.com.br/produtos/autocompaixao' },
+      { image: imgPublication8, link: 'https://www.jurua.com.br/shop_item.asp?id=28918' },
+    ],
   },
   footer: {
     navigation: 'Navegação',
@@ -137,6 +150,13 @@ export const state = () => ({
         category: 'ebook-forte-emocionalmente',
         action: 'ebook-download',
         label: 'ebook-forte-emocionalmente-#1',
+      },
+      {
+        name: 'Ebook #2 - Tolerância à Frustração',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook2-tolerancia-frustracao.pdf',
+        category: 'ebook-forte-emocionalmente',
+        action: 'ebook-download',
+        label: 'ebook-forte-emocionalmente-#2',
       },
     ],
   },
