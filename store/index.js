@@ -158,6 +158,13 @@ export const state = () => ({
         action: 'ebook-download',
         label: 'ebook-forte-emocionalmente-#2',
       },
+      {
+        name: 'Ebook #3 - Flexibilidade',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook3-flexibilidade.pdf',
+        category: 'ebook-forte-emocionalmente',
+        action: 'ebook-download',
+        label: 'ebook-forte-emocionalmente-#3',
+      },
     ],
   },
 });
