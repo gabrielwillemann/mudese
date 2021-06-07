@@ -165,6 +165,13 @@ export const state = () => ({
         action: 'ebook-download',
         label: 'ebook-forte-emocionalmente-#3',
       },
+      {
+        name: 'Ebook #4 - Adaptação',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook4-adaptação.pdf',
+        category: 'ebook-forte-emocionalmente',
+        action: 'ebook-download',
+        label: 'ebook-forte-emocionalmente-#4',
+      },
     ],
   },
 });
