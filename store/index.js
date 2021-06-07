@@ -167,7 +167,7 @@ export const state = () => ({
       },
       {
         name: 'Ebook #4 - Adaptação',
-        link: '/pdf/ebooks/forte-emocionalmente/ebook4-adaptação.pdf',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook4-adaptacao.pdf',
         category: 'ebook-forte-emocionalmente',
         action: 'ebook-download',
         label: 'ebook-forte-emocionalmente-#4',
