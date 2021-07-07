@@ -172,6 +172,13 @@ export const state = () => ({
         action: 'ebook-download',
         label: 'ebook-forte-emocionalmente-#4',
       },
+      {
+        name: 'Ebook #5 - Resiliência',
+        link: '/pdf/ebooks/forte-emocionalmente/ebook5-resiliencia.pdf',
+        category: 'ebook-forte-emocionalmente',
+        action: 'ebook-download',
+        label: 'ebook-forte-emocionalmente-#5',
+      },
     ],
   },
 });
